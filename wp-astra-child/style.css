@@ -1,0 +1,129 @@
+/**
+Theme Name: Astra Child
+Author: Signe Gadegaard
+Author URI: http://signegadegaard.dk
+Description: Child Theme for Astra
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+/* Generel styling start */
+body {
+    background-color: #ffffff;
+    color:black;
+}
+
+h1 { 
+	-webkit-text-stroke: 1px black;
+}
+
+.wp-block-cover {
+    max-width: 100%;
+}
+
+.site-main {
+padding: 0;
+}
+
+
+
+/* Scroll to top styling start */
+#scrollTop {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	display: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 99;
+	font-size: 30px;
+	border: none;
+	outline: none;
+	background-color: black;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 2px 15px 0px 15px;
+  }
+
+
+/* typed cursor styling start */
+.typed-cursor{
+	display: none;
+  }
+
+  .typed {
+	color: #ff8010 !important;
+	font-size: 35px !important;
+  }
+
+  /*styles a part of the text in a different color*/
+  .typed-color {
+	color: #FFA4D8;
+	font-size: 35px !important;
+  }
+
+
+/* burger menu styling start*/
+  .ast-header-break-point .ast-mobile-menu-buttons-minimal.menu-toggle {
+	color:#fce425 !important;
+}
+
+
+/* removes header from specific pages start*/
+
+/*removes header from Katjes-project*/
+.postid-678 .main-header-bar-wrap {
+	display: none;
+}
+
+/*removes header from Signsbybo-project*/
+.postid-680 .main-header-bar-wrap {
+	display: none;
+}
+
+/*removes header from NUUII-project*/
+.postid-1 .main-header-bar-wrap {
+	display: none;
+}
+
+
+/*media queries for tablet start*/
+@media screen and (max-width: 859px) {
+
+	/*styling for typed cursor*/
+	.typed { 
+		font-size: 24px !important;
+	}
+
+	.typed-color {
+		font-size: 24px !important;
+	}
+
+}
+
+/*portfolio billeder*/
+.imagetext {
+	opacity: 0;
+	transition-duration: 1.5s;
+}
+
+.imagetext:hover {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+Breakpoints:
+• Small (0px-599px)
+• Medium (600px-899px)
+• Large (900px-1199px)
+• Extra large (1200px and up)
+
+	
+
